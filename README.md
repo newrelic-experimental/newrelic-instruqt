@@ -8,6 +8,22 @@ This repository houses the artifacts and source code behind the tracks found in 
 
 Installation and management of the tracks in this repository is managed via the [Instruqt CLI](https://docs.instruqt.com/getting-started/software-development-kit-sdk), which can be downloaded [HERE](https://github.com/instruqt/cli/releases/latest).
 
+## How to organize your track?
+* Re-usable assets are located under the top folder `/assets`
+* If you need custom screenshots or icons, create an assets folder in your track. For example `nerd-days-1-0-k8s/assets/`
+
+
+## Naming conventions
+TBD
+
+## Tips
+* Use a [setup script](https://docs.instruqt.com/configuration/challenge-lifecycle-scripts/setup) to prepare your environment. For example you can download a file, install a package, etc.
+* Use a [check script](https://docs.instruqt.com/configuration/challenge-lifecycle-scripts/check) to validate if a user did the correct steps.
+* Use three backticks (including a newline after the first three) for pre-formatted code, so that the quick copy-paste icon gets shown on the block
+* Get familiar with the Instruqt web interface first, then use the [Instruqt CLI](https://docs.instruqt.com/getting-started/software-development-kit-sdk) to sync your Instruqt track on your machine and contribute it to this repository.
+* Use multiple notes, particularly when challenge setup takes some time. Use the notes to explain what is being set up, and what is going to happen in the challenge.
+* Use images to call out important detail, Instruqt supports [GitHub flavored markdown](https://github.github.com/gfm/)
+
 ## Support
 
 New Relic has open-sourced this project. This project is provided AS-IS WITHOUT WARRANTY OR DEDICATED SUPPORT. Issues and contributions should be reported to the project here on GitHub.
