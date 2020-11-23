@@ -11,7 +11,7 @@ description: |-
 
   Below you will find interactive challenges to learn how to use the Kubernetes cluster explorer to troubleshoot your Kubernetes environment, following New Relic's Observability maturity model:
 
-  ![Kubernetes maturity model](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-1-0-k8s/assets/png/maturity-model.png?raw=true)
+  ![Kubernetes maturity model](https://github.com/newrelic-experimental/newrelic-instruqt/blob/main/tracks/nerd-days-1-0-k8s/assets/png/maturity-model.png?raw=true)
 
   Click on the *Start Track* button to accept your first challenge!
 icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/kubernetes.png
@@ -61,7 +61,7 @@ challenges:
     kubectl get daemonsets,pods
     ```
     You should see something like this:
-    ![New Relic pods](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/nr-pods.png?raw=true)
+    ![New Relic pods](https://github.com/newrelic-experimental/newrelic-instruqt/blob/main/tracks/nerd-days-1-0-k8s/assets/png/nr-pods.png?raw=true)
 
     **Note:** If you made a mistake, you can uninstall with `helm uninstall newrelic-bundle`
   notes:
@@ -142,12 +142,12 @@ challenges:
     Tracing allows us to track and understand that communication.\n\n* A distributed
     trace represents a unique transaction that flows through your microservice environment\n*
     A trace consists of spans, which represent a unit of work (e.g.: code execution
-    on 1 microservice)\n![Distributed Tracing](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/dt-intro.png?raw=true)\n\n#
+    on 1 microservice)\n![Distributed Tracing](https://github.com/newrelic-experimental/newrelic-instruqt/blob/main/tracks/nerd-days-1-0-k8s/assets/png/dt-intro.png?raw=true)\n\n#
     Kubernetes Cluster Explorer\nGo back to the Cluster Explorer. Because we have
     an APM agent running in the pods, we can see application details in the context
     of our Kubernetes environment. \n\nClick on *'Trace this application'* to show
     relevant traces for the service running inside this pod.\n\nNow we see an overview
-    of all traces that were captured:\n![Distributed Traces](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/dt-overview.png?raw=true)\n\nClick
+    of all traces that were captured:\n![Distributed Traces](https://github.com/newrelic-experimental/newrelic-instruqt/blob/main/tracks/nerd-days-1-0-k8s/assets/png/dt-overview.png?raw=true)\n\nClick
     on one of the traces and try to understand what happened (search for a trace with
     root entry span *POST//message*):\n\n* How many **entities** were involved in
     the traces? How much time are we spending in each service?\n\n* Select a trace
@@ -185,4 +185,4 @@ challenges:
     hostname: kubernetes
   difficulty: basic
   timelimit: 900
-checksum: "342101749581838074"
+checksum: "12576596340153942129"
