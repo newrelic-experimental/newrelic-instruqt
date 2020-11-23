@@ -22,10 +22,10 @@ tags:
 - nerddays
 owner: newrelic
 developers:
-- spolfliet@newrelic.com
 - jsius@newrelic.com
 - bschmitt@newrelic.com
 - svandamme@newrelic.com
+- spolfliet@newrelic.com
 private: false
 published: true
 challenges:
@@ -142,17 +142,18 @@ challenges:
     Tracing allows us to track and understand that communication.\n\n* A distributed
     trace represents a unique transaction that flows through your microservice environment\n*
     A trace consists of spans, which represent a unit of work (e.g.: code execution
-    on 1 microservice)\n![Distributed Tracing](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/dt-intro.png?raw=true)\n\n# Kubernetes Cluster Explorer\nGo back to the Cluster
-    Explorer. Because we have an APM agent running in the pods, we can see application
-    details in the context of our Kubernetes environment. \n\nClick on *'Trace this
-    application'* to show relevant traces for the service running inside this pod.\n\nNow
-    we see an overview of all traces that were captured:\n![Distributed Traces](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/dt-overview.png?raw=true)\n\nClick on one of the traces and try to understand what
-    happened (search for a trace with root entry span *POST//message*):\n\n* How many
-    **entities** were involved in the traces? How much time are we spending in each
-    service?\n\n* Select a trace with **errors** and check what is happening.\n\n##
-    More details?\n\nThe dev team added a custom attribute *msgData* to the traces.
-    This way we are able to quickly find a specific trace. Try using the *msgData*
-    attribute in the search field.\n"
+    on 1 microservice)\n![Distributed Tracing](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/dt-intro.png?raw=true)\n\n#
+    Kubernetes Cluster Explorer\nGo back to the Cluster Explorer. Because we have
+    an APM agent running in the pods, we can see application details in the context
+    of our Kubernetes environment. \n\nClick on *'Trace this application'* to show
+    relevant traces for the service running inside this pod.\n\nNow we see an overview
+    of all traces that were captured:\n![Distributed Traces](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/dt-overview.png?raw=true)\n\nClick
+    on one of the traces and try to understand what happened (search for a trace with
+    root entry span *POST//message*):\n\n* How many **entities** were involved in
+    the traces? How much time are we spending in each service?\n\n* Select a trace
+    with **errors** and check what is happening.\n\n## More details?\n\nThe dev team
+    added a custom attribute *msgData* to the traces. This way we are able to quickly
+    find a specific trace. Try using the *msgData* attribute in the search field.\n"
   notes:
   - type: text
     contents: Multiple services are part of the deployed app but it is not clear how
@@ -184,4 +185,4 @@ challenges:
     hostname: kubernetes
   difficulty: basic
   timelimit: 900
-checksum: "3824802532597402460"
+checksum: "342101749581838074"
