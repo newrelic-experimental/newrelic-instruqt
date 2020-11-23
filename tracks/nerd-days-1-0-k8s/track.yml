@@ -11,7 +11,7 @@ description: |-
 
   Below you will find interactive challenges to learn how to use the Kubernetes cluster explorer to troubleshoot your Kubernetes environment, following New Relic's Observability maturity model:
 
-  ![Kubernetes maturity model](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/maturity-model.png?raw=true)
+  ![Kubernetes maturity model](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-1-0-k8s/assets/png/maturity-model.png?raw=true)
 
   Click on the *Start Track* button to accept your first challenge!
 icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/kubernetes.png
