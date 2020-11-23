@@ -4,17 +4,21 @@
 
 This repository houses the artifacts and source code behind the tracks found in the [New Relic team](https://play.instruqt.com/newrelic#tracks) on the [Instruqt](https://instruqt.com/) training platform.
 
-## Installation
+**Nomenclature:**
+* `Track` = Workshop
+* A track consist of multiple `challenges`
+  
+## Getting started
+* Create an account at [Instruqt](https://instruqt.com/)
+* Install the [Instruqt CLI](https://docs.instruqt.com/getting-started/software-development-kit-sdk)
+* Use the Instruqt web interface to [create a track](https://docs.instruqt.com/creating-content/tutorials/building-your-first-track#step-01-create-new-track)
+* [Pull your track locally with the CLI](https://docs.instruqt.com/creating-content/tutorials/building-your-first-track#step-03-pull-your-track)
 
-Installation and management of the tracks in this repository is managed via the [Instruqt CLI](https://docs.instruqt.com/getting-started/software-development-kit-sdk), which can be downloaded [HERE](https://github.com/instruqt/cli/releases/latest).
-
-## How to organize your track?
-* Re-usable assets are located under the top folder `/assets`
-* If you need custom screenshots or icons, create an assets folder in your track. For example `nerd-days-1-0-k8s/assets/`
-
-
-## Naming conventions
-TBD
+## Organize your track
+* In this repository, create a new folder under `tracks/` for your workshop
+* Re-usable assets are located under the top folder `assets/`
+* If you need a custom screenshot, icon, yaml,... create an `assets/` folder in your track. For example `nerd-days-1-0-k8s/assets/`
+* You can reference assets in your Markdown by using a GitHub link, for example: `![Kubernetes maturity model](https://github.com/newrelic-experimental/newrelic-instruqt/blob/master/tracks/nerd-days-k8s/assets/png/maturity-model.png?raw=true)`
 
 ## Tips
 * Use a [setup script](https://docs.instruqt.com/configuration/challenge-lifecycle-scripts/setup) to prepare your environment. For example you can download a file, install a package, etc.
