@@ -57,4 +57,3 @@ To [all contributors](https://github.com/newrelic-experimental/newrelic-instruqt
 
 ## License
 New Relic Instruqt is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
->[If applicable: [Project Name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
