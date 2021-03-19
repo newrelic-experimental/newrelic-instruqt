@@ -1,0 +1,8 @@
+#!/bin/bash
+
+apt-get update
+
+# Install MySQL
+apt-get install -y mysql-server nginx redis
+
+# Start simple load generator?

@@ -1,0 +1,51 @@
+slug: virtuoso-sandbox
+id: iy8pxuxxhveu
+version: 0.0.1
+type: track
+title: Virtuoso Sandbox
+teaser: Learn how to use New Relic's guided install
+description: |-
+  Welcome to your virtual sandbox.
+
+  This sandbox environment consists of an Ubuntu Virtual Machine, running a MySQL database.
+
+  Follow the steps through New Relic's Guided Install and see how simple setting up instrumentation can be.
+icon: ""
+level: beginner
+tags:
+- ""
+owner: newrelic
+developers:
+- spolfliet@newrelic.com
+- gabe@newrelic.com
+- jwithers@newrelic.com
+private: false
+published: false
+challenges:
+- slug: nr-instrumentation
+  id: ieqz4xrc1433
+  type: challenge
+  title: Install New Relic Instrumentation
+  teaser: Start instrumenting this Virtual Machine
+  assignment: |
+    Login to [New Relic One](https://one.newrelic.com)
+
+    And click on the Guided Install button
+
+    NEEDS TO BE UPDATED, WE CAN HOST IT IN THE NEWRELIC INSTRUQT REPO
+    ![Add more data](https://github.com/polfliet/instruqt/blob/master/activate-infrastructure/assets/gifs/instrument-system.gif?raw=true "Add more data")
+
+    **Use the Terminal #2 tab to add a newrelic user to the running MySQL database**
+  notes:
+  - type: text
+    contents: Your VM is begin created. This should take less than a minute.
+  tabs:
+  - title: 'Terminal #1'
+    type: terminal
+    hostname: ubuntu
+  - title: 'Terminal #2'
+    type: terminal
+    hostname: ubuntu
+  difficulty: basic
+  timelimit: 1800
+checksum: "12978335099867326316"
