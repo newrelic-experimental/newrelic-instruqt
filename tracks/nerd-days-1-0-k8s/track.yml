@@ -44,15 +44,17 @@ challenges:
     ```
 
     ## Install the helm chart
-    First, choose a unique cluster name and set it as an environment variable:
+    Gather your license key and choose a unique cluster name and set them as environment variables:
+    *In a production environment, you'd want to store the license key as a kubernetes secret*
     **DO NOT FORGET TO REPLACE REPLACE_THIS_VALUE**
     ```
     CLUSTER_NAME='REPLACE_THIS_VALUE'
+    LICENSE_KEY='REPLACE_THIS_VALUE'
     ```
 
     Use the following command to deploy the helm charts:
     ```
-    helm install newrelic-bundle newrelic/nri-bundle --set global.licenseKey=c1c118183c7527b1b84013fe50fa3c99eb50NRAL --set global.cluster=$CLUSTER_NAME --namespace=default --set newrelic-infrastructure.privileged=true --set ksm.enabled=true --set prometheus.enabled=true --set kubeEvents.enabled=true --set logging.enabled=true
+    helm install newrelic-bundle newrelic/nri-bundle --set global.licenseKey=$LICENSE_KEY --set global.cluster=$CLUSTER_NAME --namespace=default --set newrelic-infrastructure.privileged=true --set ksm.enabled=true --set prometheus.enabled=true --set kubeEvents.enabled=true --set logging.enabled=true
     ```
 
 
